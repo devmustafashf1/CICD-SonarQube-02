@@ -30,7 +30,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
           args: >
-            -Dsonar.organization=YOUR_ORG_NAME
-            -Dsonar.projectKey=YOUR_PROJECT_KEY
+            -Dsonar.organization=devmustafashf1
+            -Dsonar.projectKey=devmustafashf1_CICD-SonarQube-02
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
